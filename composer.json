@@ -1,0 +1,25 @@
+{
+    "name": "vu/zf2-test-extensions",
+    "description": "Makes testing controllers and services easier in Zf2",
+    "minimum-stability": "dev",
+    "license" : "BSD-3-Clause",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zend-servicemanager": ">=2.3",
+        "zendframework/zend-mvc": ">=2.3"
+    },
+    "require-dev": {
+        "phake/phake": "2.0.*",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vu\\Zf2TestExtensions\\": "src/Zf2TestExtensions"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vu\\Zf2TestExtensions\\Test\\" : "tests/Test"
+        }
+    }
+}
