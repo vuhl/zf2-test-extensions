@@ -14,11 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vu\\Zf2TestExtensions\\": "src/Zf2TestExtensions"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
+            "Vu\\Zf2TestExtensions\\": "src/Zf2TestExtensions",
             "Vu\\Zf2TestExtensions\\Test\\" : "tests/Test"
         }
     }
