@@ -31,7 +31,7 @@ abstract class AbstractServiceLocatorAwareServiceTest extends \PHPUnit_Framework
 
     public function mockEntityManager(){
         $this->entity_manager = Phake::mock('Doctrine\ORM\EntityManager');
-        $this->service_locator->setService('doctrine.entitymanager.dsa',$this->entity_manager);
+        $this->service_locator->setService('doctrine.entitymanager.orm_default', $this->entity_manager);
     }
 
     /**
