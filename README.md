@@ -6,6 +6,11 @@ Introduction
 vu/zf2-test-extensions enables easier testing of our Zf2 controllers and services. Most code contained within this
 project is specifically for use with VeteransUnited Zf2 projects, however is open for anyone to use.
 
+Installation Using Composer
+---------------------------
+Add "vu/zf2-test-extensions" to the require section of your composer.json file and run a respective install or update.
+For more information on Composer, please visit [their website](https://getcomposer.org/).
+
 Controllers
 -----------
 The abstract controllers in vu/zf2-test-extensions help ensure that controllers are fully and easily tested.
