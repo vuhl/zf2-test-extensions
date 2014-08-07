@@ -80,4 +80,14 @@ abstract class BaseActionControllerTest extends PHPUnit_Framework_TestCase{
         $data = new Parameters($files);
         $this->request->setFiles($data);
     }
+
+    /**
+     * <h2>This method will mock the redirect plugin in the plugin manager and return it.</h2>
+     */
+    public function mockRedirect(){
+        $pluginManager = $this->controller->getPluginManager();
+        $redirect = \Phake::mock('Zend\Mvc\Controller\Plugin\Redirect');
+        $pluginManager->setService('redirect', $redirect);
+        return $redirect;
+    }
 }
