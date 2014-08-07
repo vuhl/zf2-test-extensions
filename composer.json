@@ -5,8 +5,8 @@
     "license" : "BSD-3-Clause",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zend-servicemanager": ">=2.3",
-        "zendframework/zend-mvc": ">=2.3"
+        "zendframework/zend-servicemanager": ">=2.2",
+        "zendframework/zend-mvc": ">=2.2"
     },
     "require-dev": {
         "phake/phake": "2.0.*",
